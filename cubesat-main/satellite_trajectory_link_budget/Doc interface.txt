@@ -1,0 +1,10 @@
+	L'interface graphique est composée de deux parties. Une partie pour dessiner la trajectoire d'un satellite et une partie pour faire un bilan de puissance.
+Pour tracer la trajectoire du satellite, il faut rentrer les paramètres de l'orbite (voir dossier biblio). 
+	Dans cette interface, on suppose que la trajectoire est circulaire (e=0) ce qui implique que l'attitude du satellite ne change pas tout au long de son orbite.
+Initial true anomaly est l'angle qui représente la position de départ du satellite. (voir dossier biblio "orbit.pdf").
+ 	Il est possible de varier le temps de simulation en nombre de rotation au tour de la terre en changeant le paramètre N.
+Pour afficher le champs de vision FoV du satellite , il faut cocher la case "Show Fov" et de préciser l'angle d'élévation du satellite.
+Apres avoir rentré les paramètres de la trajectoire du satellite, il est possible d'estimer la surface des régions dans lesquelles on a la puissance reçue donnée en paramètre.
+Dans la case Area Radius s'affiche ainsi le rayon des cercles.
+
+
